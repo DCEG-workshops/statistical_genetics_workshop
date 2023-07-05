@@ -1,0 +1,12 @@
+- name: Sessions
+  link: /sessions
+  dropdown:
+    - name: 'Introduction'
+      link: /sessions/session_1
+    - name: 'Basic GWAS analyses'
+      link: /sessions/session_2
+- name: Instructors
+  link: /instructors
+- name: News
+  link: /news
+

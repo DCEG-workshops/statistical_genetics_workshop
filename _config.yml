@@ -1,0 +1,110 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+#   bundle exec jekyll serve --livereload
+#
+#
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title:  DCEG Statistical Genetics Workshop
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  DCEG Statistical Genetics Workshop
+#baseurl: "/test-url" # the subpath of your site, e.g. /blog
+baseurl: "/dceg_statistical_genetics_workshop"
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+remote_theme: chrisrhymes/bulma-clean-theme
+#remote_theme: just-the-docs/just-the-docs
+#theme: minima
+plugins:
+# - jekyll-feed
+
+# collections
+collections:
+  instructors:
+#  speakers:
+
+# updates
+paginate: 5
+paginate_path: "/news/page:num"
+
+# FORMATTING
+#
+#fixed_navbar: top
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      hero_height: is-small
+      #hero_image: /dceg_workshops_template/assets/grey_background.png
+      hero_darken: false
+  -
+    scope:
+      path: sessions
+    values:
+      hero_height: is-small
+      show_menubar: true
+      menubar: sessions_sidebar
+  -
+    scope:
+      type: posts
+    values:
+      hero_height: is-small
+      show_sidebar: true
+  -
+    scope:
+      path: sessions/session_1
+    values:
+      title: "Session 1:Introduction"
+      parent: sessions
+      nav_order: 1
+      tabs: session1_tabs
+  -
+    scope:
+      path: sessions/session_2
+    values:
+      title: "Session 2: Basic GWAS analyses"
+      parent: sessions
+      nav_order: 2
+      tabs: session2_tabs
+  
+  
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
