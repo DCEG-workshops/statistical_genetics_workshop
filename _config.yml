@@ -27,7 +27,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   DCEG Statistical Genetics Workshop
 #baseurl: "/test-url" # the subpath of your site, e.g. /blog
-baseurl: "/dceg_statistical_genetics_workshop"
+baseurl: "/statistical_genetics_workshop"
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
