@@ -5,9 +5,9 @@ author: Wendy Wong
 ---
 
 ## DCEG Statistical Genetics Workshop schedule for fall 2023
-Location: Rm 1106-A/B at the CRL Building, 9615 Medical Center Drive, Rockville, MD 20892/online
-Time: 9:30-12:00 EST
-Link: TBD
+#### Location: Rm 1106-A/B at the CRL Building, 9615 Medical Center Drive, Rockville, MD 20892/online
+#### Time: 9:30-12:30 EST
+#### Link: TBD
 
 - Session 1: Introduction 09/06/23
 - Session 2: Basic GWAS analyses 09/20/23
