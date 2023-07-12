@@ -58,5 +58,12 @@ be hybrid with both in-person and online participants, and all lectures will be 
 and archived for future use. Practical tutorials will be in-person at the Shady Grove NCI
 campus.
 
+### Intended audience
+Researchers and analysts with strong quantitative background who are involved or anticipate being involved in analysis of large-scale genome-wide genotyping data. Participants should have basic knowledge of epidemiologic study designs, genetic concepts and terminologies, and statistical methodologies (e.g., hypothesis testing, parameter estimation, regression models, Bayes probability), as well as familiarity with R and command-line interfaces. 
+
+ 
+
+By the end of the course, participants will have gained a deep understanding of advanced statistical methods and computational tools for analyzing GWAS data, and will be able to apply these methods to their own research. They will also be familiar with best practices for data management and sharing in GWAS, and will be able to produce reproducible and FAIR-compliant pipelines. 
+
 ### Schedule
 Please check [here]({{ site.baseurl }}/2023/07/05/save-the-dates.html) for the latest schedule.
