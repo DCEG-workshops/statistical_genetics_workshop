@@ -37,6 +37,14 @@ We'll begin with introducing the usage of Jupyter notebook and a brief overview 
 The data that we used in this workshop are the small variants from chromosome 21 from the 1000 genomes project. The pre-processing of the data is recorded in [this jupyter notebook](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/00_setup_data.ipynb)
 
 ### Step 1: Check sample and SNP missingness
+#### Find markers that have missingness <0.01
+```bash
+plink1.9 \
+    --bfile ../../data/ALL_chr21_maf0.05 \
+    --geno 0.01 \
+    --write-snplist \
+    --out ALL_chr21_maf0.05_geno0.01
+```
 ### Step 2: Check Sex discrepancy
 ### Step 3: Filter by Minor allele frequency (MAF)
 ### Step 4: Filter markers that deviate from Hardy-Weinberg Equilibuium
