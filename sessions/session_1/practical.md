@@ -32,9 +32,9 @@ Before starting this workshop, we recommend that you have:
 
 ## Workshop Overview
 
-We'll begin with introducing the usage of Jupyter notebook and a brief overview of the PLINK software and its key features.   We'll then dive into the hands-on component of the workshop, where you'll learn how to perform several essential QC procedures, the steps are as follows. The jupyter notebook for this workshop is also provided in [here](<to be filled>).
+We'll begin with introducing the usage of Jupyter notebook and a brief overview of the PLINK software and its key features.   We'll then dive into the hands-on component of the workshop, where you'll learn how to perform several essential QC procedures, the steps are as follows. The jupyter notebook for this workshop is also provided in [here](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/01_plink_QC.ipynb).
 
-The data that we used in this workshop are the small variants from chromosome 21 from the 1000 genomes project. The pre-processing of the data is recorded in [this jupyter notebook](<to be filled>)
+The data that we used in this workshop are the small variants from chromosome 21 from the 1000 genomes project. The pre-processing of the data is recorded in [this jupyter notebook](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/00_setup_data.ipynb)
 
 ### Step 1: Check sample and SNP missingness
 ### Step 2: Check Sex discrepancy
