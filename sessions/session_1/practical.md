@@ -9,16 +9,16 @@ menubar_toc: true
 <script src="{{ site.baseurl }}/assets/js/copyCodeSnippet.js" defer></script>
 <script src="{{ site.baseurl }}/assets/js/copyCodeBlock.js" defer></script>
 
-Description of the practical section 
 
 ---
 
-This workshop was designed to provide a quick introduction to GWAS QC using plink. Here, we will walk you through the process of using plink to conduct various QC steps for GWAS.
+This workshop offers an introduction to utilizing Jupyter notebooks through [Google Colaboratory](https://colab.google/). Additionally, it serves as a quick guide to GWAS QC with PLINK. We'll guide you step by step in using PLINK and R to carry out various QC procedures for Genome-Wide Assoication Studies(GWAS).
 
 ---
 
 ## Objectives
 
+- To introduce the Google Colaboratory platform.
 - To introduce participants the importance of Quality Control in the analysis pipeline.
 - To provide participants with the basic practical skills needed to perform QC of GWAS data using plink.
 
@@ -26,31 +26,35 @@ This workshop was designed to provide a quick introduction to GWAS QC using plin
 
 Before starting this workshop, we recommend that you have:
 
+- A Google Account 
 - A basic understanding of genetics, genome-wide association studies (GWAS), and the role of quality control (QC) in GWAS.
 - Familiarity with command-line tools, as we will use the command-line tool plink for the QC steps.
 
 
 ## Workshop Overview
 
-We'll begin with introducing the usage of Jupyter notebook and a brief overview of the PLINK software and its key features.   We'll then dive into the hands-on component of the workshop, where you'll learn how to perform several essential QC procedures, the steps are as follows. The jupyter notebook for this workshop is also provided in [here](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/01_plink_QC.ipynb).
+We'll begin with introducing the usage of Google Colab and a brief overview of the PLINK software and its key features.   We'll then dive into the hands-on component of the workshop, where you'll learn how to perform several essential QC procedures.
 
-The data that we used in this workshop are the small variants from chromosome 21 from the 1000 genomes project. The pre-processing of the data is recorded in [this jupyter notebook](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/00_setup_data.ipynb)
+The data that we used in this workshop is from 
 
-### Step 1: Check sample and SNP missingness
-#### Find markers that have missingness <0.01
-```bash
-plink1.9 \
-    --bfile ../../data/ALL_chr21_maf0.05 \
-    --geno 0.01 \
-    --write-snplist \
-    --out ALL_chr21_maf0.05_geno0.01
-```
-### Step 2: Check Sex discrepancy
-### Step 3: Filter by Minor allele frequency (MAF)
-### Step 4: Filter markers that deviate from Hardy-Weinberg Equilibuium
-### Step 4: Filter samples based on heterzygocity
-### Step 5: Identify (and optionally filter) on estimated relatedness
-### Step 6: Population stratification and batch effects
+### Run standard QC steps using Colab
+Please go ahead and open the [QC Notebook](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/01_qc.ipynb) in Google Colab
+
+
+### Get access to the data in Shared Google Drive
+For this workshop, we'll be storing the data on Google Drive. Please consult the [notebook](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/01_qc.ipynb) for guidance on accessing the data. Alternatively, you can also execute this notebook in a Jupyter environment, remember to download the data to a location accessible by the Jupyter server and modify the data path variables accordingly.
+
+### QC Steps
+Please refer to the notebook for more details. In short, we would like to: 
+- Check sample and SNP missingness
+- Identify markers that deviate from Hardy-Weinberg Equilibuium
+- Check heterzygosity on the samples
+- Check estimated IBD and relatedness on the samples
+- Population stratification and batch effects 
+
+### Assign ancestry to samples using GrafPop
+Please go ahead and open the [Ancestry Notebook](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/02_ancestry.ipynb) in Google Colab 
+
 
 ## References
 
