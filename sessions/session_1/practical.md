@@ -35,7 +35,7 @@ Before starting this workshop, we recommend that you have:
 
 We'll begin with introducing the usage of Google Colab and a brief overview of the PLINK software and its key features.   We'll then dive into the hands-on component of the workshop, where you'll learn how to perform several essential QC procedures.
 
-The data that we used in this workshop is from 
+The data that we used in this workshop is from the [PennCATH study](https://onlinelibrary.wiley.com/doi/10.1002/sim.6605) of coronary artery disease. It includes 1,401 individuals with 861,473 markers and has been made available publicly. 
 
 ### Run standard QC steps using Colab
 Please go ahead and open the [QC Notebook](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/01_qc.ipynb) in Google Colab
