@@ -1,5 +1,5 @@
 ---
-picture: cgr_logo.png
+picture: blank.png
 name: Weiyin Zhou
 education: Msc
 organization: CGR, DCEG, NCI
