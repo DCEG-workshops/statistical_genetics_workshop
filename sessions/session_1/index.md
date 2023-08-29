@@ -17,6 +17,11 @@ permalink: sessions/session_1
 
 ### Recommended Readings/Videos
 
+- Readings on genome-wide association study design and analysis
+    - Uffelmann, E., Huang, Q. Q., Munung, N. S., de Vries, J., Okada, Y., Martin, A. R., Martin, H. C., & Lappalainen, T. (2021). Genome-wide association studies. Nature Reviews Methods Primers, 1(1), 1–21. [https://doi.org/10.1038/s43586-021-00056-9](https://doi.org/10.1038/s43586-021-00056-9)
+- Overview of findings from genome-wide association studies
+    - Penney, K. L., Michailidou, K., Carere, D. A., Zhang, C., Pierce, B., Lindström, S., & Kraft, P. (2017). Genetic Epidemiology of Cancer. [https://doi.org/10.1093/oso/9780190238667.003.0005](https://doi.org/10.1093/oso/9780190238667.003.0005)
+    - Visscher, P. M., Wray, N. R., Zhang, Q., Sklar, P., McCarthy, M. I., Brown, M. A., & Yang, J. (2017). 10 Years of GWAS Discovery: Biology, Function, and Translation. American Journal of Human Genetics, 101(1), 5–22. [https://doi.org/10.1016/j.ajhg.2017.06.005](https://doi.org/10.1016/j.ajhg.2017.06.005 )  
 - Readings on Google Colab and Jupyter Notebook
     - [**Google Colaboratory Introduction**](https://colab.research.google.com/notebooks/intro.ipynb)
         - An official guide to Google Colab.
