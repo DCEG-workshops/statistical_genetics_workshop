@@ -67,3 +67,6 @@ By the end of the course, participants will have gained a deep understanding of 
 
 ### Schedule
 Please check [here]({{ site.baseurl }}/2023/07/05/save-the-dates.html) for the latest schedule.
+
+### Discussions
+We invite everyone to utilize the [GitHub discussion forum](https://github.com/DCEG-workshops/statgen_workshop_tutorial/discussions) to pose questions, connect with peers, and discuss course-related topics.
