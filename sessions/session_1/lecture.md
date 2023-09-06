@@ -9,12 +9,7 @@ menubar_toc: true
 
 
 
-## Introduction 
-- Why genetic epidemiology?
-- Why GWAS and RVAS?
-- What we have learned.
-- What remains to be done.
-- Overview of the course
+<object data="assets/Lecture01_PeterKraft.pdf" width="1000" height="1000" type='application/pdf'></object>
 
 
 ---
