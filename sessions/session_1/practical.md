@@ -40,9 +40,10 @@ The data that we used in this workshop is from the [PennCATH study](https://onli
 ### Run standard QC steps using Colab
 Please go ahead and open the [QC Notebook](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/01_qc.ipynb) in Google Colab
 
-
 ### Get access to the data in Shared Google Drive
-For this workshop, we'll be storing the data on Google Drive. Please consult the [notebook](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/01_qc.ipynb) for guidance on accessing the data. Alternatively, you can also execute this notebook in a Jupyter environment, remember to download the data to a location accessible by the Jupyter server and modify the data path variables accordingly.
+For this workshop, we'll be storing the data on Google Drive. Please consult the [notebook](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/01_qc.ipynb) for guidance on accessing the data. Alternatively, you can also execute this notebook in a Jupyter environment, remember to download the data to a location accessible by the Jupyter server and modify the data path variables accordingly. We also included a short video demo on how to mount Google Drive from Google Colab here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v7KiKmEaqnE?si=r11bZduSbdhHmwNf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### QC Steps
 Please refer to the notebook for more details. In short, we would like to: 
