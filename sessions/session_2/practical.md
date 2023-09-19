@@ -9,8 +9,7 @@ menubar_toc: true
 <script src="{{ site.baseurl }}/assets/js/copyCodeSnippet.js" defer></script>
 <script src="{{ site.baseurl }}/assets/js/copyCodeBlock.js" defer></script>
 
-## Practical session 2
-#### Basic GWAS analyses
+## Practical session 2: Basic GWAS Analysis
 
 This workshop deploys a precoded Jupyter notebook through Google Colaboratory to perform Genome Wide Association Studies (GWAS) using Plink. We will also explore data visualization of the GWAS results using the R package qqman. Lastly, we will deploy Metasoft for a quick meta-analysis tutorial.  
 
@@ -19,7 +18,7 @@ This workshop deploys a precoded Jupyter notebook through Google Colaboratory to
 - To display simple visualization of GWAS results and post GWAS QC.
 - To provide additional considerations and for deploying GWAS in real studies.
 - To provide a simple meta-analysis example and results.
-- 
+  
 ### Prerequisites
 Before starting this workshop, we recommend that you have:
 
