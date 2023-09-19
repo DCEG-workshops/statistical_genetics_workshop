@@ -54,7 +54,7 @@ Please refer to the notebook for more details. In short, we would like to:
 - Population stratification and batch effects 
 
 ### Assign ancestry to samples using GrafPop
-Please go ahead and open the [Ancestry Notebook](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/02_ancestry.ipynb) in Google Colab 
+Please go ahead and open the [Ancestry Notebook](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/01_1_ancestry.ipynb) in Google Colab 
 
 
 ## References
