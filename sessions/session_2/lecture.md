@@ -11,4 +11,4 @@ Practical session description
 
 ## Basic GWAS analyses
 
-
+<object data="assets/Lecture02_AubreyHubbard.ppt" width="1000" height="1000" type='application/ppt'></object>
