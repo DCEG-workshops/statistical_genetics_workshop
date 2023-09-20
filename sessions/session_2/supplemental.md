@@ -7,7 +7,7 @@ menubar_toc: true
 
 ## Session 2 supplemental
 
-**Additional GWAS Programs**
+### Additional GWAS Programs ###
 
 **Regenie:**
 - Mixed models for population structure and relatedness
