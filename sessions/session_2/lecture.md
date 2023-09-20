@@ -10,4 +10,4 @@ menubar_toc: true
 
 <object data="assets/DCEG_Statistical_Genetics_Workshop_09132023.pdf" width="1000" height="1000" type='application/pdf'></object>
 
-
+<object data="assets/Lecture02_AubreyHubbard.ppt" width="1000" height="1000" type='application/ppt'></object>
