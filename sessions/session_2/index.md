@@ -10,10 +10,10 @@ permalink: sessions/session_2
 - Annotating GWAS results.
 
 ### Practical
-•	To perform a basic GWAS using linear and logistic regression.
-•	To display simple visualization of GWAS results and post GWAS QC.
-•	To provide additional considerations and for deploying GWAS in real studies.
-•	To provide a simple meta-analysis example and results
+- To perform a basic GWAS using linear and logistic regression.
+- To display simple visualization of GWAS results and post GWAS QC.
+- To provide additional considerations and for deploying GWAS in real studies.
+- To provide a simple meta-analysis example and results
 
 ### Data Used
 GWAS: Reilly MP, Li M, He J, Ferguson JF, Stylianou IM, Mehta NN, et al. Identification of ADAMTS7 as a novel locus for coronary atherosclerosis and association of ABO with myocardial infarction in the presence of coronary atherosclerosis: two genome-wide association studies. Lancet. 2011;377:383–392.
