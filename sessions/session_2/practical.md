@@ -35,4 +35,4 @@ We use two data sources in this workshop:
 2) Meta-Analysis: Breast Cancer Association Consortium (BCAC) data from 3 different GWAS arrays that has summary statistics and meta-analysis results available publicly. 
 
 ### Let's Get Started
-Please go ahead and open the 03_GWAS&MetaAnalysis Notebook in Google Colab
+Please go ahead and open the 02_GWAS&MetaAnalysis Notebook in Google Colab
