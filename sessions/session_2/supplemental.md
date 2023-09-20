@@ -38,5 +38,6 @@ Citation: Loh, PR., Tucker, G., Bulik-Sullivan, B. et al. Efficient Bayesian mix
 Citation: https://pubmed.ncbi.nlm.nih.gov/34737426/
 
 
-###Software for Miami plots and interactive Manhattan!
-**Hudson package:** https://github.com/anastasia-lucas/hudson
+### Software for Miami plots and interactive Manhattan!
+**Hudson package:** 
+https://github.com/anastasia-lucas/hudson
