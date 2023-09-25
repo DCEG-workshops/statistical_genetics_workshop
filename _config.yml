@@ -86,7 +86,22 @@ defaults:
       parent: sessions
       nav_order: 2
       tabs: session2_tabs
-  
+  -
+    scope:
+      path: sessions/session_3
+    values:
+      title: "Session 3: Fine-mapping and colocalization"
+      parent: sessions
+      nav_order: 2
+      tabs: session3_tabs   
+  -
+    scope:
+      path: sessions/session_4
+    values:
+      title: "Session 4: Heritability, functional enrichment, polygenic scores"
+      parent: sessions
+      nav_order: 2
+      tabs: session4_tabs       
   
 
 # Exclude from processing.
