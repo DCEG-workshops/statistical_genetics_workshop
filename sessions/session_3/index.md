@@ -3,7 +3,7 @@ layout: page
 permalink: sessions/session_3
 ---
 
-### session overview
+### Session Overview
 ---
 
 ### Topics Covered
