@@ -16,7 +16,6 @@ This workshop deploys a precoded Jupyter notebook through Google Colaboratory to
 ## Objectives
 
 - To perform fine-mapping analysis, with only one potential causal variant in the region
-- Visualize the results
 - To perform colocalization of a GWAS significant loci with cis-eQTL data from two tissues
 - To perform fine-mapping analysis, with more than one potential causal variants in the region
 - Visualize the results
