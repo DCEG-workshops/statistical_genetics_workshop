@@ -19,3 +19,6 @@ Several different fine mapping software are used commonly for post-GWAS analysis
 
 You can visit the vignette pages for each of these to learn and understand more about the intuition of the methods and find the suitable application for your analysis.
 
+## Additional colocalization software:
+
+- HyPrColoc: [Link](https://github.com/jrs95/hyprcoloc) : Colocalization with more than 2 traits/outcomes to choose the best subset of colocalizing outcomes.
