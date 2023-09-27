@@ -29,3 +29,5 @@ Before starting this workshop, we recommend that you have:
 - A basic understanding of the pipeline of GWAS analysis and expected output from genome-wide association studies (GWAS) (covered in Workshop #2)
 - Basic R programming for visualization.
 
+### Let's start
+Please go ahead and open the [FineMapping&Colocalization.ipynb](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/03_FineMapping%26Colocalization.ipynb) Notebook in Google Colab
