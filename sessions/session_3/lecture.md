@@ -8,3 +8,4 @@ menubar_toc: true
 <script>addBackToTop()</script>
 
 
+<object data="assets/STATGEN_PostGWAS_v3.pdf" width="1000" height="1000" type='application/ppt'></object>
