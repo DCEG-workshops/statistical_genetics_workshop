@@ -10,7 +10,7 @@ permalink: sessions/session_3
 - What is statistical fine-mapping and how to interpret the results? 
 - Fine-mapping using summary statistics
 - Integrating functional annotations with fine-mapping
-- What is colocalization?
+- Colocalization and interpretation of results.
 
 
 ### Practical
