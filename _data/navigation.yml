@@ -9,6 +9,8 @@
       link: /sessions/session_3
     - name: 'Heritability, functional enrichment, polygenic scores'
       link: /sessions/session_4    
+    - name: 'Rare variants'
+      link: /sessions/session_5          
 - name: Instructors
   link: /instructors
 - name: News

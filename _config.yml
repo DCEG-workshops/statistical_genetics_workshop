@@ -102,6 +102,14 @@ defaults:
       parent: sessions
       nav_order: 2
       tabs: session4_tabs       
+  -
+    scope:
+      path: sessions/session_5
+    values:
+      title: "Session 5: Rare variants"
+      parent: sessions
+      nav_order: 2
+      tabs: session5_tabs        
   
 
 # Exclude from processing.

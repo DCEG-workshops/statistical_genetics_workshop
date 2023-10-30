@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: sessions/session_4/lecture
+permalink: sessions/session_5/lecture
 menubar_toc: true
 ---
 
@@ -8,6 +8,3 @@ menubar_toc: true
 <script>addBackToTop()</script>
 
 
-<object data="assets/lecture4_HaoyuZhang.pdf" width="1000" height="1000" type='application/pdf'></object>
-
----
