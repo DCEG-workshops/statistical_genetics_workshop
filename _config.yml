@@ -109,7 +109,39 @@ defaults:
       title: "Session 5: Rare variants"
       parent: sessions
       nav_order: 2
-      tabs: session5_tabs        
+      tabs: session5_tabs
+  -
+    scope:
+      path: sessions/session_6
+    values:
+      title: "Session 6: Integrative analyses and Mendelian Randomization"
+      parent: sessions
+      nav_order: 2
+      tabs: session6_tabs
+  -
+    scope:
+      path: sessions/session_7
+    values:
+      title: "Session 7: GWAS, fine-mapping and PRS in diverse-genetic-ancestry and admixed samples"
+      parent: sessions
+      nav_order: 2
+      tabs: session7_tabs
+  -
+    scope:
+      path: sessions/session_8
+    values:
+      title: "Session 8: Genetic mosaicism and clonal hematopoiesis"
+      parent: sessions
+      nav_order: 2
+      tabs: session8_tabs
+  -
+    scope:
+      path: sessions/session_9
+    values:
+      title: "Session 9: Functional genomics"
+      parent: sessions
+      nav_order: 2
+      tabs: session9_tabs                                
   
 
 # Exclude from processing.
