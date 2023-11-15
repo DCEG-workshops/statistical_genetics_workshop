@@ -5,8 +5,6 @@ menubar_toc: true
 ---
 
 ## Supplemental
-![image](https://github.com/DCEG-workshops/statistical_genetics_workshop/assets/42150195/3c9cebe3-83e6-482a-b34c-0a30147dec22)
-
 ### Reading
 -PrediXcan: Gamazon, E., Wheeler, H., Shah, K. et al. A gene-based association method for mapping traits using reference transcriptome data. Nat Genet 47, 1091–1098 (2015). https://doi.org/10.1038/ng.3367
 
