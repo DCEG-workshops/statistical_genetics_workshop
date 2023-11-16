@@ -6,6 +6,8 @@ menubar_toc: true
 
 ## Supplemental
 ### Reading
+- Breeze, C. E., Haugen, E., Reynolds, A., Teschendorff, A., van Dongen, J., Lan, Q., Rothman, N., Bourque, G., Dunham, I., Beck, S., Stamatoyannopoulos, J., Franceschini, N., & Berndt, S. I. (2022). Integrative analysis of 3604 GWAS reveals multiple novel cell type-specific regulatory associations. Genome Biology, 23(1), 13. [https://doi.org/10.1186/s13059-021-02560-3]
+
 - PrediXcan: Gamazon, E., Wheeler, H., Shah, K. et al. A gene-based association method for mapping traits using reference transcriptome data. Nat Genet 47, 1091–1098 (2015). [https://doi.org/10.1038/ng.3367]
 
 - MetaXcan: Barbeira, A.N., Dickinson, S.P., Bonazzola, R. et al. Exploring the phenotypic consequences of tissue specific gene expression variation inferred from GWAS summary statistics. Nat Commun 9, 1825 (2018). [https://doi.org/10.1038/s41467-018-03621-1]
@@ -27,8 +29,10 @@ menubar_toc: true
     - Predict DB: [https://predictdb.org/]
     - FUSION Prediction Models: [http://gusevlab.org/projects/fusion/#gtex-v8-multi-tissue-expression]
 
-- TWAS Databases
+- Databases
     - [http://twas-hub.org/]
     - [http://www.webtwas.net/]
     - [https://ngdc.cncb.ac.cn/twas/]
+    - [https://forge2.altiusinstitute.org/]
+    - [https://forgedb.cancer.gov/]
  
