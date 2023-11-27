@@ -11,14 +11,14 @@ menubar_toc: true
 
 ## Practical session 
 
-This workshop will explore Mosaic chromosomal alteration (mCA) analysis.
+This workshop will explore the essential steps for detecting mosaic chromosomal alterations (mCAs).
 
 ## Practical Overview:
 - Convert GenomeStudio CNV table to VCF
-- Phasing using [EAGLE2](https://alkesgroup.broadinstitute.org/Eagle/)
-- mCA detection using [MoChA](https://github.com/freeseek/mocha) on phased VCF
-- plotting mCAs
-- [Circos](http://circos.ca/) plot to illustrating autosomal mCAs categorizes as Gain, CNLOH, and Loss
+- Perform Phasing using [EAGLE2](https://alkesgroup.broadinstitute.org/Eagle/)
+- Detect mCAs using [MoChA](https://github.com/freeseek/mocha) on the phased VCF
+- plot the identified mCAs
+- Utilize [Circos](http://circos.ca/) to illustrating the distribution of autosomal mCAs categorized as Gain, CNLOH, and Loss
 
 ### Let's get started 
 Please go ahead and open the [08_mCA_colab.ipynb](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/08_mCA_colab.ipynb) Google colab notebook. 
