@@ -4,18 +4,17 @@ permalink: sessions/session_7
 ---
 
 ### Lecture overview
-
-- Population-specific and trans-ancestry GWAS
-- Multi-population fine-mapping
-- PRS construction
-- PRS evaluation across populations
-- Absolute risk across populations
+- Population-specific and trans-ancestry GWAS
+- Multi-population fine-mapping
+- PRS construction
+- PRS evaluation across populations
+- Absolute risk across populations
 
 ### Practical:
 
-- Perform multi-population fine-mapping
-- Perform multi-population PRS construction using PRS-CSx
-- Perform multi-population PRS evaluation
+- Perform multi-population fine-mapping
+- Perform multi-population PRS construction using PRS-CSx
+- Perform multi-population PRS evaluation
 
 #### Data Used:
 - Summary statistics from Wang et. al. [https://pubmed.ncbi.nlm.nih.gov/37945903/](https://pubmed.ncbi.nlm.nih.gov/37945903/)
