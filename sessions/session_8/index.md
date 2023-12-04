@@ -17,6 +17,6 @@ permalink: sessions/session_8
 chromosomal alterations. Nature 559, 350–355 (2018). [PMID: 29995854] [DOI: 10.1038/s41586-018-0321-x]
 - Tools to convert Illumina intensity data files into VCF using [gtc2vcf](https://github.com/freeseek/gtc2vcf)
 - Haplotype-based mCA detection method using [MoChA](https://github.com/freeseek/mocha) 
-- MoChA WDL pipelines [MoChA_wdl] (https://github.com/freeseek/mochawdl)
+- MoChA WDL pipelines [MoChA_wdl](https://github.com/freeseek/mochawdl)
 - Phasing using [EAGLE2](https://alkesgroup.broadinstitute.org/Eagle)
 - Phasing using [SHAPEIT4](https://odelaneau.github.io/shapeit4)
