@@ -4,6 +4,9 @@ permalink: sessions/session_8
 ---
 
 ### session overview
+- How are mosaic chromosomal alterations detected?
+- What risk factors are associated with the development and clonal expansion of mosaic chromosomal alterations?
+- Do mosaic chromosomal alterations alter disease risk (e.g., cancer)?
 
 
 #### Suggested Readings
