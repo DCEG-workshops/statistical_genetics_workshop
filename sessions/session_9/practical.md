@@ -10,3 +10,11 @@ menubar_toc: true
 <script src="{{ site.baseurl }}/assets/js/copyCodeBlock.js" defer></script>
 
 ## Practical session 
+
+### Hands-on session overview
+1. Extract regions from the assemblies. 
+2. Aligning reads with hg38, generating BAM files for seamless visualization in IGV.
+
+### Let's get started 
+Please go ahead and open the [09_functionalGenomics.ipynb](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/09_functionalGenomics.ipynb) Google colab notebook.    
+
