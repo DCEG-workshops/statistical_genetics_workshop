@@ -48,15 +48,13 @@ analyses in ancestry-diverse and admixed populations; analyses of genetic mosaic
 and clonal hematopoiesis; and functional follow-up of genetic association studies.
 
 ### Course format
-The course will consist of nine sessions held from September to
-December of 2023. Sessions will be held on Wednesdays from 9:30 to 12:30 will
-include a lecture (1.25 hours, including Q&A) and a 1.5-hour practical tutorial. (See
-schedule below for specific dates.) Participants are expected to complete background
-reading before each session (estimated out-of-class time: < 2 hours) and hands-on
-exercises after each session (estimated out-of-class time: < 2 hours). The course will
-be hybrid with both in-person and online participants, and all lectures will be recorded
-and archived for future use. Practical tutorials will be in-person at the Shady Grove NCI
-campus.
+The course will consist of multiple sessions held in 2026 (dates TBD).
+Sessions will include a lecture (1.25 hours, including Q&A) and a 1.5-hour practical
+tutorial. (See schedule below for specific dates.) Participants are expected to complete
+background reading before each session (estimated out-of-class time: < 2 hours) and
+hands-on exercises after each session (estimated out-of-class time: < 2 hours). The
+course will be hybrid with both in-person and online participants, and all lectures will be
+recorded and archived for future use.
 
 ### Intended audience
 Researchers and analysts with strong quantitative background who are involved or anticipate being involved in analysis of large-scale genome-wide genotyping data. Participants should have basic knowledge of epidemiologic study designs, genetic concepts and terminologies, and statistical methodologies (e.g., hypothesis testing, parameter estimation, regression models, Bayes probability), as well as familiarity with R and command-line interfaces. 
@@ -66,7 +64,10 @@ Researchers and analysts with strong quantitative background who are involved or
 By the end of the course, participants will have gained a deep understanding of advanced statistical methods and computational tools for analyzing GWAS data, and will be able to apply these methods to their own research. They will also be familiar with best practices for data management and sharing in GWAS, and will be able to produce reproducible and FAIR-compliant pipelines. 
 
 ### Schedule
-Please check [here]({{ site.baseurl }}/2023/07/05/save-the-dates.html) for the latest schedule.
+Please check [here]({{ site.baseurl }}/2026/01/01/save-the-dates.html) for the latest schedule.
 
 ### Discussions
 We invite everyone to utilize the [GitHub discussion forum](https://github.com/DCEG-workshops/statgen_workshop_tutorial/discussions) to pose questions, connect with peers, and discuss course-related topics.
+
+### Previous Workshops
+- [2023 Workshop](https://github.com/DCEG-workshops/statistical_genetics_workshop/tree/workshop-2023) — Next Generation Statistical Methods for GWAS (September–December 2023)

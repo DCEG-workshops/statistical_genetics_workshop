@@ -17,5 +17,8 @@
     - name: 'Genetic mosaicism and clonal hematopoiesis'
       link: /sessions/session_8   
     - name: 'Functional genomics'
-      link: /sessions/session_9                                
-    
+      link: /sessions/session_9
+- label: Previous Workshops
+  items:
+    - name: '2023 Workshop'
+      link: https://github.com/DCEG-workshops/statistical_genetics_workshop/tree/workshop-2023
