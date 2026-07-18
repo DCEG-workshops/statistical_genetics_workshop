@@ -1,0 +1,292 @@
+<!doctype html>
+
+
+
+
+<html
+    dir="ltr"
+    lang="en"
+    
+>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/statistical_genetics_workshop/2023/assets/css/app.css">
+    <link
+        rel="shortcut icon"
+        type="image/png"
+        
+            href="/statistical_genetics_workshop/2023/favicon.png"
+        
+    >
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Session 2: Basic GWAS analyses | DCEG Statistical Genetics Workshop</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Session 2: Basic GWAS analyses" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="DCEG Statistical Genetics Workshop" />
+<meta property="og:description" content="DCEG Statistical Genetics Workshop" />
+<meta property="og:site_name" content="DCEG Statistical Genetics Workshop" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Session 2: Basic GWAS analyses" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"DCEG Statistical Genetics Workshop","headline":"Session 2: Basic GWAS analyses","url":"/statistical_genetics_workshop/2023/sessions/session_2/supplemental"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- head scripts -->
+</head>
+
+    <body>
+        
+        <!--add banner at the top of the page for DCEG
+<a href="http://www.dceg.cancer.gov" style="height: 67px; max-width: 100%; text-align: left;"><img itemprop="image" class="img-rounded" src="/statistical_genetics_workshop/2023/assets/DCEG-logo.svg" alt="" style="height: 67px; max-width: 100%; text-align: left;">
+-->
+<!--<img itemprop="image" src="/statistical_genetics_workshop/2023/assets/banner.png">-->
+<nav class="navbar is-primary " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/statistical_genetics_workshop/2023/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/statistical_genetics_workshop/2023/sessions" class="navbar-link is-active">Sessions</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/statistical_genetics_workshop/2023/sessions/session_1" class="navbar-item ">Introduction</a>
+                            
+                            <a href="/statistical_genetics_workshop/2023/sessions/session_2" class="navbar-item ">Basic GWAS analyses</a>
+                            
+                            <a href="/statistical_genetics_workshop/2023/sessions/session_3" class="navbar-item ">Fine-mapping and colocalization</a>
+                            
+                            <a href="/statistical_genetics_workshop/2023/sessions/session_4" class="navbar-item ">Heritability, functional enrichment, polygenic scores</a>
+                            
+                            <a href="/statistical_genetics_workshop/2023/sessions/session_5" class="navbar-item ">Rare variants</a>
+                            
+                            <a href="/statistical_genetics_workshop/2023/sessions/session_6" class="navbar-item ">Integrative analyses and Mendelian Randomization</a>
+                            
+                            <a href="/statistical_genetics_workshop/2023/sessions/session_7" class="navbar-item ">GWAS, fine-mapping and PRS in diverse-genetic-ancestry and admixed samples</a>
+                            
+                            <a href="/statistical_genetics_workshop/2023/sessions/session_8" class="navbar-item ">Genetic mosaicism and clonal hematopoiesis</a>
+                            
+                            <a href="/statistical_genetics_workshop/2023/sessions/session_9" class="navbar-item ">Functional genomics</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/statistical_genetics_workshop/2023/instructors" class="navbar-item ">Instructors</a>
+                    
+                
+                    
+                    <a href="/statistical_genetics_workshop/2023/news" class="navbar-item ">News</a>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+        
+            <!--<img itemprop="image" src="/statistical_genetics_workshop/2023/assets/emerging_approaches_banner.png">-->
+<!-- shift the hero image to the left-->
+<section class="hero  is-small  has-text-weight-bold is-bold is-primary" >
+    <div class="hero-head"></div>
+    <div class="hero-body " style="box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.45);">
+        <div class="container" style="/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10" >
+            <h1 class="title is-1 has-text-light" style="text-shadow: 2px 2px 0 #000;">Session 2: Basic GWAS analyses</h1>
+            <p class="subtitle is-3" style=""></p>
+            
+        </div>
+    </div>
+</section>
+<!--text-shadow: -2px -2px 0 ##7f7f7f, 2px -2px 0 ##7f7f7f, -2px 2px 0 ##7f7f7f, 2px 2px 0 ##7f7f7f;}-->
+<!---->
+
+        
+        
+
+        <section class="section">
+            <div class="container">
+                <div class="columns is-multiline">
+                    
+                        <div class="column is-4-desktop is-4-tablet">
+                            
+                            
+
+<!-- change 'top: 3.5rem' if the height of the top menubar changes-->
+<div class="contents" style="
+  position: sticky; overflow-y: scroll; top: .5rem; bottom: .5rem; max-height: calc(100vh - 4rem);
+  ">
+    <div class="menu">
+        <p class="menu-label">Contents</p>
+        <ul class="menu-list">
+  <li><a href="#session-2-supplemental">Session 2 supplemental</a>
+    <ul>
+      <li><a href="#additional-gwas-programs">Additional GWAS Programs</a></li>
+      <li><a href="#software-for-miami-plots-and-interactive-manhattan">Software for Miami plots and interactive Manhattan!</a></li>
+    </ul>
+  </li>
+</ul>
+    </div>
+</div>
+
+                        </div>
+                    
+                    <div class="column is-8">
+                        
+    
+
+    <div class="tabs is-large is-left is-boxed">
+        <ul>
+            
+                <li
+                    
+                >
+                    <a href="/statistical_genetics_workshop/2023/sessions/session_2">
+                        
+                            <span class="icon is-small"><i class="fas fa-dna" aria-hidden="true"></i></span>
+                        
+                        <span>Overview</span>
+                    </a>
+                </li>
+            
+                <li
+                    
+                >
+                    <a href="/statistical_genetics_workshop/2023/sessions/session_2/lecture">
+                        
+                            <span class="icon is-small"><i class="fas fa-book" aria-hidden="true"></i></span>
+                        
+                        <span>Lecture</span>
+                    </a>
+                </li>
+            
+                <li
+                    
+                >
+                    <a href="/statistical_genetics_workshop/2023/sessions/session_2/practical">
+                        
+                            <span class="icon is-small"><i class="fas fa-laptop-code" aria-hidden="true"></i></span>
+                        
+                        <span>Practical</span>
+                    </a>
+                </li>
+            
+                <li
+                    
+                        class="is-active"
+                    
+                >
+                    <a href="/statistical_genetics_workshop/2023/sessions/session_2/supplemental">
+                        
+                            <span class="icon is-small"><i class="fas fa-plus" aria-hidden="true"></i></span>
+                        
+                        <span>Supplemental</span>
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+
+
+                        
+
+                        
+
+                        
+
+                        
+<div class="content">
+    <h2 id="session-2-supplemental">Session 2 supplemental</h2>
+
+<h3 id="additional-gwas-programs">Additional GWAS Programs</h3>
+
+<p><strong>Regenie:</strong></p>
+<ul>
+  <li>Mixed models for population structure and relatedness</li>
+  <li>quantitative and binary traits, including binary traits with unbalanced case-control ratios</li>
+  <li>multiple phenotypes at once efficiently</li>
+  <li>For binary traits, it supports Firth logistic regression and an SPA test</li>
+  <li>Fast and memory efficient</li>
+</ul>
+
+<p>Citation: Mbatchou, J., Barnard, L., Backman, J. et al. Computationally efficient whole-genome regression for quantitative and binary traits. Nat Genet 53, 1097–1103 (2021). https://doi.org/10.1038/s41588-021-00870-7</p>
+
+<p><strong>SAIGE:</strong></p>
+<ul>
+  <li>Mixed model for sample relatedness and population structure</li>
+  <li>Unbalanced Case-Control Sets</li>
+  <li>Saddlepoint Approximation (SPA) to handle unbalanced case-control</li>
+  <li>Computationally efficient</li>
+</ul>
+
+<p>Citation: Zhou W, Nielsen JB, Fritsche LG, Dey R, Gabrielsen ME, Wolford BN, LeFaive J, VandeHaar P, Gagliano SA, Gifford A, Bastarache LA, Wei WQ, Denny JC, Lin M, Hveem K, Kang HM, Abecasis GR, Willer CJ, Lee S. Efficiently controlling for case-control imbalance and sample relatedness in large-scale genetic association studies. Nat Genet. 2018 Sep;50(9):1335-1341. doi: 10.1038/s41588-018-0184-y. Epub 2018 Aug 13. PMID: 30104761; PMCID: PMC6119127.</p>
+
+<p><strong>BOLT-LMM:</strong></p>
+<ul>
+  <li>Mixed model association testing</li>
+  <li>For analyses of data with &gt; 5,000 samples</li>
+  <li>Quantitative Traits and reasonably balanced case/control sets</li>
+  <li>Assumes a Bayesian mixture-of-normals prior for the random effect attributed to SNPs other than the one being tested</li>
+  <li>Generalizes the standard “infinitesimal” mixed model used by previous mixed model association methods</li>
+</ul>
+
+<p>Citation: Loh, PR., Tucker, G., Bulik-Sullivan, B. et al. Efficient Bayesian mixed-model analysis increases association power in large cohorts. Nat Genet 47, 284–290 (2015). https://doi.org/10.1038/ng.3190</p>
+
+<p><strong>fastGWA-GLMM</strong></p>
+<ul>
+  <li>Mixed model</li>
+  <li>quantitative and binary (even unbalanced)</li>
+</ul>
+
+<p>Link: https://pubmed.ncbi.nlm.nih.gov/34737426/</p>
+
+<h3 id="software-for-miami-plots-and-interactive-manhattan">Software for Miami plots and interactive Manhattan!</h3>
+<p><strong>Hudson package:</strong> 
+https://github.com/anastasia-lucas/hudson</p>
+
+</div>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+            <footer class="footer">
+    <div class="container">
+        
+
+        <div class="content is-small has-text-centered">
+            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
+
+        
+        <script src="/statistical_genetics_workshop/2023/assets/js/app.js" type="text/javascript"></script><!-- footer scripts -->
+</body>
+</html>

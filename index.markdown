@@ -49,7 +49,7 @@ and clonal hematopoiesis; and functional follow-up of genetic association studie
 
 ### Course format
 The course will consist of nine sessions held from September to
-December of 2023. Sessions will be held on Wednesdays from 9:30 to 12:30 will
+December of 2026. Sessions will be held on Wednesdays from 9:30 to 12:30 will
 include a lecture (1.25 hours, including Q&A) and a 1.5-hour practical tutorial. (See
 schedule below for specific dates.) Participants are expected to complete background
 reading before each session (estimated out-of-class time: < 2 hours) and hands-on
@@ -66,7 +66,10 @@ Researchers and analysts with strong quantitative background who are involved or
 By the end of the course, participants will have gained a deep understanding of advanced statistical methods and computational tools for analyzing GWAS data, and will be able to apply these methods to their own research. They will also be familiar with best practices for data management and sharing in GWAS, and will be able to produce reproducible and FAIR-compliant pipelines. 
 
 ### Schedule
-Please check [here]({{ site.baseurl }}/2023/07/05/save-the-dates.html) for the latest schedule.
+Please check [here]({{ site.baseurl }}/2026/07/01/save-the-dates.html) for the latest schedule.
+
+### Previous workshops
+A frozen archive of the 2023 workshop, including all lectures and practical materials, is available here: [2023 Statistical Genetics Workshop]({{ site.baseurl }}/2023/).
 
 ### Discussions
 We invite everyone to utilize the [GitHub discussion forum](https://github.com/DCEG-workshops/statgen_workshop_tutorial/discussions) to pose questions, connect with peers, and discuss course-related topics.

@@ -31,7 +31,9 @@ baseurl: "/statistical_genetics_workshop"
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-remote_theme: chrisrhymes/bulma-clean-theme
+# Pinned to the last v0.x release: later theme versions use the Dart Sass module
+# system (@use), which the GitHub Pages Ruby Sass toolchain cannot compile.
+remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 #remote_theme: just-the-docs/just-the-docs
 #theme: minima
 plugins:
@@ -74,7 +76,7 @@ defaults:
     scope:
       path: sessions/session_1
     values:
-      title: "Session 1:Introduction"
+      title: "Session 1: Introduction"
       parent: sessions
       nav_order: 1
       tabs: session1_tabs
@@ -82,7 +84,7 @@ defaults:
     scope:
       path: sessions/session_2
     values:
-      title: "Session 2: Basic GWAS analyses"
+      title: "Session 2: Basic GWAS Analyses"
       parent: sessions
       nav_order: 2
       tabs: session2_tabs
@@ -90,7 +92,7 @@ defaults:
     scope:
       path: sessions/session_3
     values:
-      title: "Session 3: Fine-mapping and colocalization"
+      title: "Session 3: Ancestry Inference & Gene–Environment Interactions"
       parent: sessions
       nav_order: 2
       tabs: session3_tabs   
@@ -98,7 +100,7 @@ defaults:
     scope:
       path: sessions/session_4
     values:
-      title: "Session 4: Heritability, functional enrichment, polygenic scores"
+      title: "Session 4: Fine-Mapping and Colocalization"
       parent: sessions
       nav_order: 2
       tabs: session4_tabs       
@@ -106,7 +108,7 @@ defaults:
     scope:
       path: sessions/session_5
     values:
-      title: "Session 5: Rare variants"
+      title: "Session 5: Post-GWAS Analysis: Heritability, Functional Enrichment, Integrative Analyses"
       parent: sessions
       nav_order: 2
       tabs: session5_tabs
@@ -114,7 +116,7 @@ defaults:
     scope:
       path: sessions/session_6
     values:
-      title: "Session 6: Integrative analyses and Mendelian Randomization"
+      title: "Session 6: Polygenic Risk Scores"
       parent: sessions
       nav_order: 2
       tabs: session6_tabs
@@ -122,7 +124,7 @@ defaults:
     scope:
       path: sessions/session_7
     values:
-      title: "Session 7: GWAS, fine-mapping and PRS in diverse-genetic-ancestry and admixed samples"
+      title: "Session 7: Rare Variants"
       parent: sessions
       nav_order: 2
       tabs: session7_tabs
@@ -130,7 +132,7 @@ defaults:
     scope:
       path: sessions/session_8
     values:
-      title: "Session 8: Genetic mosaicism and clonal hematopoiesis"
+      title: "Session 8: Genetic Mosaicism and Clonal Hematopoiesis"
       parent: sessions
       nav_order: 2
       tabs: session8_tabs
@@ -138,7 +140,7 @@ defaults:
     scope:
       path: sessions/session_9
     values:
-      title: "Session 9: Functional genomics"
+      title: "Session 9: Functional Genomics"
       parent: sessions
       nav_order: 2
       tabs: session9_tabs                                

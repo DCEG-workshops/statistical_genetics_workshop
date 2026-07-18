@@ -4,6 +4,4 @@ permalink: sessions/session_7/supplemental
 menubar_toc: true
 ---
 
-
-## supplemental
-
+*Supplemental materials will be posted here.*
