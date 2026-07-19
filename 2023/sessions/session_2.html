@@ -1,0 +1,329 @@
+<!doctype html>
+
+
+
+
+<html
+    dir="ltr"
+    lang="en"
+    
+>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/statistical_genetics_workshop/2023/assets/css/app.css">
+    <link
+        rel="shortcut icon"
+        type="image/png"
+        
+            href="/statistical_genetics_workshop/2023/favicon.png"
+        
+    >
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Session 2: Basic GWAS analyses | DCEG Statistical Genetics Workshop</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Session 2: Basic GWAS analyses" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="DCEG Statistical Genetics Workshop" />
+<meta property="og:description" content="DCEG Statistical Genetics Workshop" />
+<meta property="og:site_name" content="DCEG Statistical Genetics Workshop" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Session 2: Basic GWAS analyses" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"DCEG Statistical Genetics Workshop","headline":"Session 2: Basic GWAS analyses","url":"/statistical_genetics_workshop/2023/sessions/session_2"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- head scripts -->
+</head>
+
+    <body>
+        
+        <!--add banner at the top of the page for DCEG
+<a href="http://www.dceg.cancer.gov" style="height: 67px; max-width: 100%; text-align: left;"><img itemprop="image" class="img-rounded" src="/statistical_genetics_workshop/2023/assets/DCEG-logo.svg" alt="" style="height: 67px; max-width: 100%; text-align: left;">
+-->
+<!--<img itemprop="image" src="/statistical_genetics_workshop/2023/assets/banner.png">-->
+<nav class="navbar is-primary " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/statistical_genetics_workshop/2023/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/statistical_genetics_workshop/2023/sessions" class="navbar-link is-active">Sessions</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/statistical_genetics_workshop/2023/sessions/session_1" class="navbar-item ">Introduction</a>
+                            
+                            <a href="/statistical_genetics_workshop/2023/sessions/session_2" class="navbar-item is-active">Basic GWAS analyses</a>
+                            
+                            <a href="/statistical_genetics_workshop/2023/sessions/session_3" class="navbar-item ">Fine-mapping and colocalization</a>
+                            
+                            <a href="/statistical_genetics_workshop/2023/sessions/session_4" class="navbar-item ">Heritability, functional enrichment, polygenic scores</a>
+                            
+                            <a href="/statistical_genetics_workshop/2023/sessions/session_5" class="navbar-item ">Rare variants</a>
+                            
+                            <a href="/statistical_genetics_workshop/2023/sessions/session_6" class="navbar-item ">Integrative analyses and Mendelian Randomization</a>
+                            
+                            <a href="/statistical_genetics_workshop/2023/sessions/session_7" class="navbar-item ">GWAS, fine-mapping and PRS in diverse-genetic-ancestry and admixed samples</a>
+                            
+                            <a href="/statistical_genetics_workshop/2023/sessions/session_8" class="navbar-item ">Genetic mosaicism and clonal hematopoiesis</a>
+                            
+                            <a href="/statistical_genetics_workshop/2023/sessions/session_9" class="navbar-item ">Functional genomics</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/statistical_genetics_workshop/2023/instructors" class="navbar-item ">Instructors</a>
+                    
+                
+                    
+                    <a href="/statistical_genetics_workshop/2023/news" class="navbar-item ">News</a>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+        
+            <!--<img itemprop="image" src="/statistical_genetics_workshop/2023/assets/emerging_approaches_banner.png">-->
+<!-- shift the hero image to the left-->
+<section class="hero  is-small  has-text-weight-bold is-bold is-primary" >
+    <div class="hero-head"></div>
+    <div class="hero-body " style="box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.45);">
+        <div class="container" style="/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10" >
+            <h1 class="title is-1 has-text-light" style="text-shadow: 2px 2px 0 #000;">Session 2: Basic GWAS analyses</h1>
+            <p class="subtitle is-3" style=""></p>
+            
+        </div>
+    </div>
+</section>
+<!--text-shadow: -2px -2px 0 ##7f7f7f, 2px -2px 0 ##7f7f7f, -2px 2px 0 ##7f7f7f, 2px 2px 0 ##7f7f7f;}-->
+<!---->
+
+        
+        
+
+        <section class="section">
+            <div class="container">
+                <div class="columns is-multiline">
+                    
+                        <div class="column is-4-desktop is-4-tablet">
+                            
+
+<aside class="menu menu-label-font-size: 1">
+
+    <p class="menu-label" style="font-size: 16px"><b>| Sessions</b></p>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/statistical_genetics_workshop/2023/sessions/session_1" class="">Introduction</a>
+            
+        </li>
+        
+        <li>
+            <a href="/statistical_genetics_workshop/2023/sessions/session_2" class="is-active">Basic GWAS analyses</a>
+            
+        </li>
+        
+        <li>
+            <a href="/statistical_genetics_workshop/2023/sessions/session_3" class="">Fine-mapping and colocalization</a>
+            
+        </li>
+        
+        <li>
+            <a href="/statistical_genetics_workshop/2023/sessions/session_4" class="">Heritability, functional enrichment, polygenic scores</a>
+            
+        </li>
+        
+        <li>
+            <a href="/statistical_genetics_workshop/2023/sessions/session_5" class="">Rare variants</a>
+            
+        </li>
+        
+        <li>
+            <a href="/statistical_genetics_workshop/2023/sessions/session_6" class="">Integrative analyses and Mendelian Randomization</a>
+            
+        </li>
+        
+        <li>
+            <a href="/statistical_genetics_workshop/2023/sessions/session_7" class="">GWAS, fine-mapping and PRS in diverse-genetic-ancestry and admixed samples</a>
+            
+        </li>
+        
+        <li>
+            <a href="/statistical_genetics_workshop/2023/sessions/session_8" class="">Genetic mosaicism and clonal hematopoiesis</a>
+            
+        </li>
+        
+        <li>
+            <a href="/statistical_genetics_workshop/2023/sessions/session_9" class="">Functional genomics</a>
+            
+        </li>
+        
+    </ul>
+
+</aside>
+
+                        </div>
+                    
+                    <div class="column is-8">
+                        
+    
+
+    <div class="tabs is-large is-left is-boxed">
+        <ul>
+            
+                <li
+                    
+                        class="is-active"
+                    
+                >
+                    <a href="/statistical_genetics_workshop/2023/sessions/session_2">
+                        
+                            <span class="icon is-small"><i class="fas fa-dna" aria-hidden="true"></i></span>
+                        
+                        <span>Overview</span>
+                    </a>
+                </li>
+            
+                <li
+                    
+                >
+                    <a href="/statistical_genetics_workshop/2023/sessions/session_2/lecture">
+                        
+                            <span class="icon is-small"><i class="fas fa-book" aria-hidden="true"></i></span>
+                        
+                        <span>Lecture</span>
+                    </a>
+                </li>
+            
+                <li
+                    
+                >
+                    <a href="/statistical_genetics_workshop/2023/sessions/session_2/practical">
+                        
+                            <span class="icon is-small"><i class="fas fa-laptop-code" aria-hidden="true"></i></span>
+                        
+                        <span>Practical</span>
+                    </a>
+                </li>
+            
+                <li
+                    
+                >
+                    <a href="/statistical_genetics_workshop/2023/sessions/session_2/supplemental">
+                        
+                            <span class="icon is-small"><i class="fas fa-plus" aria-hidden="true"></i></span>
+                        
+                        <span>Supplemental</span>
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+
+
+                        
+
+                        
+
+                        
+
+                        
+<div class="content">
+    <h3 id="basic-gwas-analyses">Basic GWAS analyses</h3>
+<ul>
+  <li>Basic GWAS testing.</li>
+  <li>Meta-analyses.</li>
+  <li>Visualizations.</li>
+  <li>Annotating GWAS results.</li>
+</ul>
+
+<h3 id="practical">Practical</h3>
+<ul>
+  <li>To perform a basic GWAS using linear and logistic regression.</li>
+  <li>To display simple visualization of GWAS results and post GWAS QC.</li>
+  <li>To provide additional considerations and for deploying GWAS in real studies.</li>
+  <li>To provide a simple meta-analysis example and results</li>
+</ul>
+
+<h3 id="data-used">Data Used</h3>
+<p>GWAS: Reilly MP, Li M, He J, Ferguson JF, Stylianou IM, Mehta NN, et al. Identification of ADAMTS7 as a novel locus for coronary atherosclerosis and association of ABO with myocardial infarction in the presence of coronary atherosclerosis: two genome-wide association studies. Lancet. 2011;377:383–392.</p>
+
+<p>Meta-Analysis: Zhang et al. Genome-wide association study identifies 32 novel breast cancer susceptibility loci from overall and subtype-specific analyses. Nat Genet. 2020 Jun;52(6):572-581. doi: 10.1038/s41588-020-0609-2</p>
+
+<h3 id="programs-used">Programs Used</h3>
+<p>Purcell S, Neale B, Todd-Brown K, et al. PLINK: A Tool Set for Whole-Genome Association and Population-Based Linkage Analyses. Am J Hum Genet. 2007;81(3):559-575.</p>
+
+<p>Turner, (2018). qqman: an R package for visualizing GWAS results using Q-Q and manhattan plots. Journal of Open Source Software, 3(25), 731, https://doi.org/10.21105/joss.00731.</p>
+
+<p>Buhm Han and Eleazar Eskin, “Random-Effects Model Aimed at Discovering Associations in Meta-Analysis of Genome-wide Association Studies”, The American Journal of Human Genetics (2011) 88, 586-598.</p>
+
+<p>K. Watanabe, E. Taskesen, A. van Bochoven and D. Posthuma. Functional mapping and annotation of genetic associations with FUMA. Nat. Commun. 8:1826. (2017).
+https://www.nature.com/articles/s41467-017-01261-5</p>
+
+<p>Machiela MJ, Chanock SJ. LDassoc: an online tool for interactively exploring genome-wide association study results and prioritizing variants for functional investigation. Bioinformatics. 2017 Sept 12.</p>
+
+<h3 id="recommended-readings">Recommended Readings</h3>
+<ul>
+  <li>Main reading on Genome Wide Association Studies and Analysis
+    <ul>
+      <li>Uffelmann, E., Huang, Q. Q., Munung, N. S., de Vries, J., Okada, Y., Martin, A. R., Martin, H. C., &amp; Lappalainen, T. (2021). Genome-wide association studies. Nature Reviews Methods Primers, 1(1), 1–21. https://doi.org/10.1038/s43586-021-00056-9</li>
+    </ul>
+  </li>
+  <li>Overview of findings from genome-wide association studies
+    <ul>
+      <li>Penney, K. L., Michailidou, K., Carere, D. A., Zhang, C., Pierce, B., Lindström, S., &amp; Kraft, P. (2017). Genetic Epidemiology of Cancer. https://doi.org/10.1093/oso/9780190238667.003.0005</li>
+      <li>Visscher, P. M., Wray, N. R., Zhang, Q., Sklar, P., McCarthy, M. I., Brown, M. A., &amp; Yang, J. (2017). 10 Years of GWAS Discovery: Biology, Function, and Translation. American Journal of Human Genetics, 101(1), 5–22. https://doi.org/10.1016/j.ajhg.2017.06.005</li>
+    </ul>
+  </li>
+</ul>
+
+
+</div>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+            <footer class="footer">
+    <div class="container">
+        
+
+        <div class="content is-small has-text-centered">
+            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
+
+        
+        <script src="/statistical_genetics_workshop/2023/assets/js/app.js" type="text/javascript"></script><!-- footer scripts -->
+</body>
+</html>

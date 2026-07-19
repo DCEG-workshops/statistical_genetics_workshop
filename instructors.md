@@ -5,7 +5,8 @@ title: Instructors
 ---
   <section class="px-4">
   {% for instructor in site.instructors %}
-	<figure class="image is-128x128" style="float:left; clear:left" >
+    <div style="clear: both; overflow: auto; min-height: 140px; margin-bottom: 2rem">
+	<figure class="image is-128x128" style="float:left" >
 		<img class="is-rounded" src="{{ site.baseurl }}/assets/instructors/{{ instructor.picture }}">
 	</figure>
     <div class="px-4" style="overflow: auto">
@@ -14,6 +15,6 @@ title: Instructors
     	<h4>{{ instructor.position }}</h4>
     	<p>{{ instructor.content | markdownify }}{% if instructor.profile_link %}<a href="{{instructor.profile_link}}" target="_blank">{{instructor.name}}'s {{instructor.profile_type}} profile</a> {% endif %}</p>
     </div>
-  <br><br>
+    </div>
   {% endfor %}
   </section>

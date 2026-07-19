@@ -3,24 +3,23 @@
   dropdown:
     - name: 'Introduction'
       link: /sessions/session_1
-    - name: 'Basic GWAS analyses'
+    - name: 'Basic GWAS Analyses'
       link: /sessions/session_2
-    - name: 'Fine-mapping and colocalization'
+    - name: 'Ancestry Inference & Gene–Environment Interactions'
       link: /sessions/session_3
-    - name: 'Heritability, functional enrichment, polygenic scores'
-      link: /sessions/session_4    
-    - name: 'Rare variants'
-      link: /sessions/session_5  
-    - name: 'Integrative analyses and Mendelian Randomization'
-      link: /sessions/session_6  
-    - name: 'GWAS, fine-mapping and PRS in diverse-genetic-ancestry and admixed samples'
-      link: /sessions/session_7  
-    - name: 'Genetic mosaicism and clonal hematopoiesis'
+    - name: 'Fine-Mapping and Colocalization'
+      link: /sessions/session_4
+    - name: 'Post-GWAS Analysis: Heritability, Functional Enrichment, Integrative Analyses'
+      link: /sessions/session_5
+    - name: 'Polygenic Risk Scores'
+      link: /sessions/session_6
+    - name: 'Rare Variants'
+      link: /sessions/session_7
+    - name: 'Genetic Mosaicism and Clonal Hematopoiesis'
       link: /sessions/session_8
-    - name: 'Functional genomics'
-      link: /sessions/session_9                                    
+    - name: 'Functional Genomics'
+      link: /sessions/session_9
 - name: Instructors
   link: /instructors
 - name: News
   link: /news
-
