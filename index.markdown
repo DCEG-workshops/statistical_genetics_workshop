@@ -49,7 +49,7 @@ and clonal hematopoiesis; and functional follow-up of genetic association studie
 
 ### Course format
 The course will consist of nine sessions held from September to
-December of 2026. Sessions will be held on Wednesdays from 9:30 to 12:30 will
+December of 2026. Sessions will be held on Wednesdays from 9:30 AM to 12:00 PM EST and will
 include a lecture (1.25 hours, including Q&A) and a 1.5-hour practical tutorial. (See
 schedule below for specific dates.) Participants are expected to complete background
 reading before each session (estimated out-of-class time: < 2 hours) and hands-on

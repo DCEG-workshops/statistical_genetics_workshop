@@ -5,7 +5,7 @@ author: Wendy Wong
 ---
 
 ## DCEG Statistical Genetics Workshop schedule for fall 2026
-#### Time: 9:30-12:30 EST
+#### Time: 9:30 AM–12:00 PM EST
 <!-- Location and connection (in-person room / online link) details to be announced -->
 
 - Session 1: Introduction — September 9, 2026 (Peter Kraft, Xueyao Wu)
