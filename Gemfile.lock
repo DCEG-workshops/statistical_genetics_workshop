@@ -243,11 +243,11 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.27.0)
     multipart-post (2.1.1)
-    nokogiri (1.18.9-arm64-darwin)
+    nokogiri (1.19.4-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.18.9-x86_64-darwin)
+    nokogiri (1.19.4-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.18.9-x86_64-linux-gnu)
+    nokogiri (1.19.4-x86_64-linux-gnu)
       racc (~> 1.4)
     octokit (4.22.0)
       faraday (>= 0.9)
@@ -289,6 +289,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  arm64-darwin-25
   x86_64-darwin-20
   x86_64-darwin-21
   x86_64-linux
@@ -303,5 +304,8 @@ DEPENDENCIES
   wdm (~> 0.1.1)
   webrick (~> 1.8)
 
+RUBY VERSION
+   ruby 3.3.12p206
+
 BUNDLED WITH
-   2.3.7
+   2.5.22

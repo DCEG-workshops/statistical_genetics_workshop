@@ -34,7 +34,10 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 ### Testing locally
 
-It might be easier to install jekyll with bundle, to force updating this command can be used
+Local builds require Ruby 3.3 or newer. The `.ruby-version` file pins the tested Ruby release.
+
+Install the dependencies with `bundle install`, then run Jekyll with:
+
 `bundle exec jekyll serve --force_polling --port <port_number>`
 
 ### Support or Contact
