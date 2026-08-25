@@ -92,7 +92,7 @@ defaults:
     scope:
       path: sessions/session_3
     values:
-      title: "Session 3: Ancestry Inference & Gene–Environment Interactions"
+      title: "Session 3: Gene-Environment Interaction"
       parent: sessions
       nav_order: 2
       tabs: session3_tabs   
