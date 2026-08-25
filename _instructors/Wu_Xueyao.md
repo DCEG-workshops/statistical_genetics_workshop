@@ -1,10 +1,10 @@
 ---
 picture: xueyao-wu.jpg
 name: Xueyao Wu
-education: B.Med.
+education: Ph.D.
 organization: DCEG, NCI
 profile_link: https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/tdrp/wu-xueyao
 
 ---
 
-Xueyao Wu joined DCEG as a predoctoral fellow in the Trans-Divisional Research Program (TDRP) in December 2023. She is conducting research on the interplay between germline genetics, AI-generated breast imaging phenotypes, and the risk of breast cancer, under the mentorship of Peter Kraft, Ph.D., Director of TDRP. Ms. Wu is pursuing a doctoral degree in epidemiology as part of a Direct Doctorate program at the West China School of Public Health, Sichuan University, China, after earning a bachelor's degree in medicine in June 2020. She has published studies examining relationships between breast cancer and depression, uterine leiomyoma, and chronotype.
+Xueyao Wu, Ph.D., joined DCEG as a predoctoral fellow in the Trans-Divisional Research Program (TDRP) in December 2023 and advanced to a postdoctoral fellowship in September 2025. She employs GWAS, post-GWAS, cross-cancer, and cross-ancestry analyses to elucidate the contributions of genetic and nongenetic factors to cancer risk. Her work has centered primarily on breast cancer and, more recently, has expanded to other solid cancers and acute myeloid leukemia. She conducts her research under the mentorship of Peter Kraft, Ph.D., Director of TDRP.
