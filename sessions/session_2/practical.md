@@ -13,6 +13,8 @@ Work through these R Markdown notebooks in order. Both are available in the [tut
 | 2a | [Basic GWAS with REGENIE (`02a_gwas.Rmd`)](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/02a_gwas.Rmd) | Quantitative- and binary-trait association testing using PennCATH data |
 | 2b | [Cross-Ancestry GWAS Meta-Analysis with METASOFT (`02b_meta_analysis.Rmd`)](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/02b_meta_analysis.Rmd) | Combining BCAC2017 summary statistics at the TERT locus |
 
+The tutorial data is also available on [Google Drive](https://drive.google.com/drive/folders/1kVJH4tM8R8O0hITnvifCV-hoai-Mgn-b?usp=sharing).
+
 ## Objectives
 
 - Understand REGENIE's two-step whole-genome regression approach and leave-one-chromosome-out (LOCO) predictions.

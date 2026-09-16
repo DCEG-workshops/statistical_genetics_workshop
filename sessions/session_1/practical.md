@@ -8,6 +8,8 @@ menubar_toc: true
 
 The practical tutorial files are available in the [`src` folder of the Statistical Genetics Workshop tutorial repository](https://github.com/DCEG-workshops/statgen_workshop_tutorial/tree/main/src).
 
+The tutorial data is also available on [Google Drive](https://drive.google.com/drive/folders/1kVJH4tM8R8O0hITnvifCV-hoai-Mgn-b?usp=sharing).
+
 ## Objectives
 
 - Introduce the RStudio Server / Biowulf HPC environment for genetic data analysis.
