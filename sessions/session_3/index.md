@@ -7,6 +7,10 @@ permalink: sessions/session_3
 
 **Instructors:** Peter Kraft, Jayati Sharma
 
+## Topics Covered
+
+This session covers the use of population descriptors (including, but not limited to, race, ethnicity, and genetic ancestry) in genetic research and gene-environment interactions.
+
 ## Required Reading Before the Session
 
 Please read the following materials before Wednesday's session:
