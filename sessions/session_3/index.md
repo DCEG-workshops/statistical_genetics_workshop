@@ -11,6 +11,12 @@ permalink: sessions/session_3
 
 This session covers the use of population descriptors (including, but not limited to, race, ethnicity, and genetic ancestry) in genetic research and gene-environment interactions.
 
+PDFs of the required and optional reading materials are also available on Biowulf at:
+
+```text
+/data/DCEG_shared/statgen_workshop_2026/reading_material/session3/
+```
+
 ## Required Reading Before the Session
 
 Please read the following materials before Wednesday's session:
