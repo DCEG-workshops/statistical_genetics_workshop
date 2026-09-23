@@ -11,6 +11,3 @@ items:
   - name: Practical
     link: /sessions/session_3/practical
     icon: fa-laptop-code
-  - name: Supplemental
-    link: /sessions/session_3/supplemental
-    icon: fa-plus
