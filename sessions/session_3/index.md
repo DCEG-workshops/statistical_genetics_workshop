@@ -17,6 +17,10 @@ PDFs of the required and optional reading materials are also available on Biowul
 /data/DCEG_shared/statgen_workshop_2026/reading_material/session3/
 ```
 
+## Practical Tutorial
+
+The [Gene–Environment Interaction Lab (`03_gxe_lab.Rmd`)](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/03_gxe_lab.Rmd) uses two simulated datasets to compare interaction on multiplicative and additive scales. See the [Practical page for objectives, setup instructions, and lab activities]({{ '/sessions/session_3/practical' | relative_url }}).
+
 ## Required Reading Before the Session
 
 Please read the following materials before Wednesday's session:
