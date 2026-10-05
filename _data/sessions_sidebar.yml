@@ -8,7 +8,7 @@
       link: /sessions/session_3
     - name: 'Fine-Mapping and Colocalization'
       link: /sessions/session_4
-    - name: 'Post-GWAS Analysis: Heritability, Functional Enrichment, Integrative Analyses'
+    - name: 'Post-GWAS Analyses: Transcriptome-Wide Association Studies and Genetic Heritability Estimation'
       link: /sessions/session_5
     - name: 'Polygenic Risk Scores'
       link: /sessions/session_6
