@@ -13,16 +13,25 @@ The lab uses GWAS summary statistics, linkage disequilibrium (LD), and gene-expr
 ## Setup
 
 1. Launch RStudio through [NIH HPC OnDemand](https://hpcondemand.nih.gov). See the [Session 1 RStudio setup instructions]({{ '/sessions/session_1/practical' | relative_url }}#launch-rstudio-on-hpc-ondemand).
-2. Open the **Terminal** tab in RStudio and run these shell commands to clone the tutorial repository into your own workshop folder:
+2. Open the **Terminal** tab in RStudio. The tutorial repository contains materials for all sessions, so you only need one copy.
+
+   **If you cloned the repository before**, go to that existing folder and run `git pull` to get the latest materials:
 
    ```bash
-   mkdir -p /data/$USER/Stats_Gen/workshop4
-   cd /data/$USER/Stats_Gen/workshop4
+   cd /data/$USER/Stats_Gen/statgen_workshop_tutorial
+   git pull
+   ```
+
+   Replace the `cd` path with your existing repository location if you cloned it elsewhere. Run `git pull` from that folder before future sessions too.
+
+   **If this is your first time cloning the repository**, run:
+
+   ```bash
+   cd /data/$USER/Stats_Gen
    git clone https://github.com/DCEG-workshops/statgen_workshop_tutorial.git
    ```
 
-   If you already cloned the repository, use your existing copy.
-3. In RStudio, choose **File > Open File** and open `/data/<your-username>/Stats_Gen/workshop4/statgen_workshop_tutorial/src/04_finemapping_colocalization.Rmd`, replacing `<your-username>` with your Biowulf username. If you are using an existing clone elsewhere, open `src/04_finemapping_colocalization.Rmd` from that folder.
+3. In RStudio, choose **File > Open File**, browse to your `statgen_workshop_tutorial` folder, and open `src/04_finemapping_colocalization.Rmd`.
 4. Choose **Session > Set Working Directory > To Source File Location**. Changing directories in the Terminal does not change R's working directory.
 5. Install any missing packages listed in the notebook: `susieR`, `coloc`, `knitr`, and `rmarkdown`.
 6. Run the setup chunks, then work through the analysis chunks in order. The notebook reads shared inputs from the directory below and saves results in `/vf/users/<your-username>/Stats_Gen/workshop4`.
