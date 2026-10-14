@@ -10,7 +10,7 @@ Work through [Heritability Analysis in GWAS (`05_Heritability.Rmd`)](https://git
 
 ## Setup
 
-1. Launch RStudio through [NIH HPC OnDemand](https://hpcondemand.nih.gov). See the [Session 1 RStudio setup instructions]({{ '/sessions/session_1/practical' | relative_url }}#launch-rstudio-on-hpc-ondemand).
+1. Launch RStudio through [NIH HPC OnDemand](https://hpcondemand.nih.gov), requesting **8 GB of memory** for this practical. See the [Session 1 RStudio setup instructions]({{ '/sessions/session_1/practical' | relative_url }}#launch-rstudio-on-hpc-ondemand).
 2. Open the **Terminal** tab in RStudio. The tutorial repository contains materials for all sessions, so you only need one copy.
 
    **If you cloned the repository before**, go to that existing folder and run `git pull` to get the latest materials:
