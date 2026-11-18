@@ -28,6 +28,8 @@ By the end of the session, participants should be able to:
 
 ## Session Materials
 
+View [Mitchell J. Machiela's lecture slides]({{ '/sessions/session_8/lecture' | relative_url }}) as a PDF or download the original PowerPoint.
+
 Follow the [practical setup instructions and lab activities]({{ '/sessions/session_8/practical' | relative_url }}) using the [Genetic Mosaicism Practical — Biowulf 2026 notebook (`08_mCA_Biowulf_2026_final.Rmd`)](https://github.com/DCEG-workshops/statgen_workshop_tutorial/blob/main/src/08_mCA_Biowulf_2026_final.Rmd).
 
 ## Reading Material
